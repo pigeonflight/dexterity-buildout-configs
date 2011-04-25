@@ -1,0 +1,17 @@
+This contains configurations for easily adding dexterity support to Plone 4.
+
+It should be possible to download the dexterity-plone4.0.5.cfg file to your buildout directory 
+then add the following to the extends section of your buildout.cfg
+
+extends =
+         ....
+         dexterity-plone4.0.5.cfg
+
+then rerun buildout, typically:
+
+  bin/buildout
+
+This will add the relevant dependencies to your buildout (add the -n option if in doubt).
+
+  bin/buildout -n
+
