@@ -11,5 +11,7 @@ then rerun buildout, typically:
 
   bin/buildout
 
+This will add the relevant dependencies to your buildout (add the -n option if in doubt).
 
-This will add the relevant dependencies to your buildout.
+  bin/buildout -n
+
