@@ -17,3 +17,18 @@ This will add the relevant dependencies to your buildout (add the -n option if i
 
 I've also included a good starting point for a dexterity product based on Martin Aspeli's tutorial 
 on the Plone.org site: http://plone.org/products/dexterity/documentation/manual/developer-manual
+
+To include the example.conference add the example.conference.cfg file and update your
+buildout appropriately.
+
+extends =
+          ....
+         dexterity-plone4.0.5.cfg
+         example.conference.cfg
+
+       
+then rerun buildout
+
+    bin/buildout
+
+(note, you'll need to have git installed on your system).
