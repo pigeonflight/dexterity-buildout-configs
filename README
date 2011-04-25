@@ -15,3 +15,5 @@ This will add the relevant dependencies to your buildout (add the -n option if i
 
   bin/buildout -n
 
+I've also included a good starting point for a dexterity product based on Martin Aspeli's tutorial 
+on the Plone.org site: http://plone.org/products/dexterity/documentation/manual/developer-manual
