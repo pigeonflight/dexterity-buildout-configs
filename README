@@ -1,3 +1,5 @@
+WARNING!! still working on this, doesn't behave as expected yet, need to do a bit more work on the buildout
+
 This contains configurations for easily adding dexterity support to Plone 4.
 
 It should be possible to download the dexterity-plone4.0.5.cfg file to your buildout directory 
